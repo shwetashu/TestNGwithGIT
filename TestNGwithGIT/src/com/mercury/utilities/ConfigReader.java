@@ -20,7 +20,7 @@ public class ConfigReader {
 		}
 	}
 
-	public  String getFireFoxPath()
+	public  String getPath()
 	{
 		String path=pro.getProperty("URL");
 
