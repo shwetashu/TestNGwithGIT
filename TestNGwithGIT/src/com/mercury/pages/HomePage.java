@@ -11,7 +11,7 @@ public class HomePage extends DriverScript {
 	{
 		
 		ConfigReader config=new ConfigReader();
-		driver.get(config.getFireFoxPath());
+		driver.get(config.getPath());
 		//driver.get("http://localhost/servlets/com.mercurytours.servlet.WelcomeServlet");
 		String actualTitle=driver.getTitle();
 		System.out.println("Page Title: " + actualTitle);
